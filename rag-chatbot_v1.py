@@ -62,32 +62,3 @@ while True:
 
     chat_history.append((query, result["answer"]))
     query = None
-
-
-# # Define a valid namespace with a prompt template
-# prompt_namespace = {
-#     "id": ["langchain", "prompts", "prompt", "PromptTemplate"],
-#     "lc": 1,
-#     "type": "constructor",
-#     "kwargs": {
-#         "template": "You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know. Use three sentences maximum and keep the answer concise.\nQuestion: {question} \nContext: {context} \nAnswer:",
-#         "input_variables": ["question", "context"],
-#         "template_format": "f-string",
-#     },
-# }
-
-
-# # Create an instance of the prompt template
-# prompt_template = PromptTemplate(**prompt_namespace["kwargs"])
-
-# llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0, openai_api_key=key)
-
-# rag_prompt = PromptTemplate(**prompt_namespace["kwargs"])
-
-# rag_chain = (
-#     {"context": retriever, "question": runnable.RunnablePassthrough()}
-#     | rag_prompt
-#     | llm
-# )
-
-# rag_chain.invoke("What were the final parameters used in the isolationForest model")
