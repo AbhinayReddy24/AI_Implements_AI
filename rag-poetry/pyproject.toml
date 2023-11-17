@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "rag-poetry"
+version = "1.1.0"
+description = "Ottawa Hackathon"
+authors = ["Abhinay","Jesssie","Daniel"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+python-dotenv = "^1.0.0"
+langchain = "^0.0.335"
+openai = "^1.2.4"
+pypdf = "^3.17.1"
+chromadb = "^0.4.17"
+tiktoken = "^0.5.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+flake8 = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
