@@ -9,14 +9,14 @@ Elapsed time: 7.51 seconds
 poetry run python rag-chatbot_v1.py
 Setup (loader,vector,retreiver chain prepared) done in 1.29s
 
-# Question: What port/protocol is used for DNS?
-# Ans: The port used for DNS is UDP port 53.
+Question: What port/protocol is used for DNS?
+Ans: The port used for DNS is UDP port 53.
 Elapsed: 2.51s
 
 --------------                                           
 
-# Question: Is that usually allowed unfettered access through enterprise firewalls?
-# Ans: Yes, enterprise firewalls are typically configured to allow all packets on UDP port 53 (used by DNS) since DNS is such a crucial service for virtually all applications.
+Question: Is that usually allowed unfettered access through enterprise firewalls?
+Ans: Yes, enterprise firewalls are typically configured to allow all packets on UDP port 53 (used by DNS) since DNS is such a crucial service for virtually all applications.
 Elapsed: 8.14s
 
 --------------                                           
