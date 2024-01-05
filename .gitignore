@@ -1,2 +1,6 @@
 .env
 AI_Implements_AI.code-workspace
+
+docstore.json
+default__vector_store.json
+index_store.json

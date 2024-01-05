@@ -1,0 +1,18 @@
+what were the final parameters that were used in the model 
+what were the final attributes that were used
+what were all the evaluation metrics used
+what were all the references that was used
+what were all the algorithms that were tested out
+what was the final goal of the author and did they achieve it 
+what does each attribute mean in the aritcle
+what is is that this paper is trying to accomplish
+How was the data set collected
+what were the final parameters that were used in the model 
+what were the final attributes that were used
+what were all the evaluation metrics used
+what were all the references that was used
+what were all the algorithms that were tested out
+what was the final goal of the author and did they achieve it 
+what does each attribute mean in the aritcle
+what is is that this paper is trying to accomplish
+How was the data set collected

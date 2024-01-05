@@ -6,5 +6,7 @@
     "llms",
     "Vectorstore",
     "vectorstores"
-  ]
+  ],
+  "python.analysis.autoImportCompletions": true,
+  "cloudcode.duetAI.inlineSuggestions.enableAuto": false
 }
